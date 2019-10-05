@@ -28,6 +28,7 @@ class Application
       #this declares the value to be passed into the method.
       #OR DOES IT??
       resp.write add_item(item)
+      #this write the return value of the function
     else
       resp.write "Path Not Found"
     end
